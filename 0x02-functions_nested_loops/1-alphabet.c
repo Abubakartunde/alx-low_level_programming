@@ -1,11 +1,11 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_alphabet - Check description
  * Description: It prints the alphabet in lowercase fallowed by a new line
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
 	char i;
 
