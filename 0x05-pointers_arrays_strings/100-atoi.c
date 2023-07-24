@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * _atoi - this is a function that convert a string to integer
- * @s: A input string
+ * _atoi - a function that converts string to integer
+ * @s: An input string
  * Return: integer from conversion
  */
 int _atoi(char *s)
@@ -10,7 +10,7 @@ int _atoi(char *s)
 	int sign = 1;
 	unsigned int total = 0;
 	char null_flag = 0;
-	
+
 	while (*s)
 	{
 		if (*s == '-')
