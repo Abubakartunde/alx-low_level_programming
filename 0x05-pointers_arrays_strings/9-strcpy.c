@@ -1,6 +1,6 @@
 /**
  * _strcpy - function that copies the string
- * including the null byte (\0),
+ * including the terminating null byte (\0),
  * to the buffer pointed to by dest.
  *
  * @dest: A pointer to destination of string
