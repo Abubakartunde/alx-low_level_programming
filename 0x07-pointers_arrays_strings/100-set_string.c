@@ -6,7 +6,7 @@
  * @to: pointer to the string to set s to
  * Return: Description of the returned value
  */
-voidset_string(char **s, char *to)
+void set_string(char **s, char *to)
 {
 	*s = to;
 }
