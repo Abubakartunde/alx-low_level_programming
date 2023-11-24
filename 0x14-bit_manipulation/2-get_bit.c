@@ -7,7 +7,6 @@
  * @index: The index where the bit get at
  * Return: The value of the bit or -1 if an error occured
  */
-int main(void)
 int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned long int max = 0x01;
