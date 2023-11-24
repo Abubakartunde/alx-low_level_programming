@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include "stdio"
 #include "main.h"
 
 /**
  * print_binary - A function that prints a binary number without % or /
- * @n: The number that will be printed
- * Return: 0
+ * @n: The number to be printed
+ * Return: Nothing
  */
 void print_binary(unsigned long int n)
 {
