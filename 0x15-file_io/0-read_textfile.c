@@ -1,12 +1,9 @@
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <sys/uio.h>
-#include <unistd.h>
-#include <fcntl.h>
+#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * read_textfile - A function that reads a text file and prints
+ * read_textfile - The function that read a text file and prints
  * to the POSIX STDOUT
  * @filename: The filename to open
  * @letters: The number of letters to read and print
